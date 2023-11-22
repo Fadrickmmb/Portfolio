@@ -1,6 +1,38 @@
 #main_mother_div{
     border: 1px solid black;
     width: 99%;
-    height: 600px;
+    height: 700px;
+    display: flex;
 
+}
+
+#main_sidebar{
+    border: 1px solid black;
+    width: 25%;
+    height: 550px;
+    margin-top: 75px;
+    margin-left: 20px;
+}
+
+#main_content{
+    border: 1px solid black;
+    width: 65%;
+    height: 550px;
+    margin-top: 75px;
+    margin-left: 60px;    
+}
+
+#main_subcontent_01{
+    border: 1px solid black;
+    width: 99%;
+    height: 400px;
+    margin-left: 0.5%;
+}
+
+#main_subcontent_02{
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 50px;
 }
