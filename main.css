@@ -70,6 +70,31 @@
     margin-top: 2%;
 }
 
+#look_portfolio{
+    border: 1px solid black;
+    width: 25%;
+    height: 50%;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+
+#piggy_portfolio{
+    border: 1px solid black;
+    width: 25%;
+    height: 50%;
+    display: inline-block;
+    margin-left: 6%;
+}
+
+#github_portfolio{
+    border: 1px solid black;
+    width: 25%;
+    height: 50%;
+    display: inline-block;
+    margin-left: 6%;
+}
+
 #about_me_div{
     border: 1px solid black;
     width: 90%;
