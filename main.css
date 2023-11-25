@@ -103,6 +103,14 @@
     margin-top: 2%;
 }
 
+#contact_me_div{
+    border: 1px solid black;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
 #main_subcontent_02{
     border: 1px solid black;
     width: 50%;
