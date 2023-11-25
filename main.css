@@ -19,22 +19,22 @@
 }
 
 
-#main_sidebar_picture{
-    border: 1px solid black;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 5%;
-    height: 30%;
-    border-radius: 50%;    
-}
+            #main_sidebar_picture{
+                border: 1px solid black;
+                width: 50%;
+                margin-left: 25%;
+                margin-top: 5%;
+                height: 30%;
+                border-radius: 50%;    
+            }
 
-#main_sidebar_text{
-    border: 1px solid black;
-    width: 80%;
-    height: 60%;
-    margin-top: 2%;
-    margin-left: 10%    ;
-}
+            #main_sidebar_text{
+                border: 1px solid black;
+                width: 80%;
+                height: 60%;
+                margin-top: 2%;
+                margin-left: 10%    ;
+            }
 
 
              /* MAIN CONTENT */ 
@@ -47,69 +47,69 @@
     margin-left: 3%;    
 }
 
-#main_subcontent_01{
-    border: 1px solid black;
-    width: 99%;
-    height: 75%;
-    margin-left: 0.5%;
-}
+            #main_subcontent_01{
+                border: 1px solid black;
+                width: 99%;
+                height: 75%;
+                margin-left: 0.5%;
+            }
 
-#home_div{
-    border: 1px solid black;
-    width: 90%;
-    height: 90%;
-    margin-left: 5%;
-    margin-top: 2%;
-}
+            #home_div{
+                border: 1px solid black;
+                width: 90%;
+                height: 90%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
 
-#portfolio_div{
-    border: 1px solid black;
-    width: 90%;
-    height: 90%;
-    margin-left: 5%;
-    margin-top: 2%;
-}
+            #portfolio_div{
+                border: 1px solid black;
+                width: 90%;
+                height: 90%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
 
-#look_portfolio{
-    border: 1px solid black;
-    width: 25%;
-    height: 50%;
-    display: inline-block;
-    margin-top: 10%;
-    margin-left: 6%;
-}
+                    #look_portfolio{
+                        border: 1px solid black;
+                        width: 25%;
+                        height: 50%;
+                        display: inline-block;
+                        margin-top: 10%;
+                        margin-left: 6%;
+                    }
 
-#piggy_portfolio{
-    border: 1px solid black;
-    width: 25%;
-    height: 50%;
-    display: inline-block;
-    margin-left: 6%;
-}
+                    #piggy_portfolio{
+                        border: 1px solid black;
+                        width: 25%;
+                        height: 50%;
+                        display: inline-block;
+                        margin-left: 6%;
+                    }
 
-#github_portfolio{
-    border: 1px solid black;
-    width: 25%;
-    height: 50%;
-    display: inline-block;
-    margin-left: 6%;
-}
+                    #github_portfolio{
+                        border: 1px solid black;
+                        width: 25%;
+                        height: 50%;
+                        display: inline-block;
+                        margin-left: 6%;
+                    }
 
-#about_me_div{
-    border: 1px solid black;
-    width: 90%;
-    height: 90%;
-    margin-left: 5%;
-    margin-top: 2%;
-}
+            #about_me_div{
+                border: 1px solid black;
+                width: 90%;
+                height: 90%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
 
-#contact_me_div{
-    border: 1px solid black;
-    width: 90%;
-    height: 90%;
-    margin-left: 5%;
-    margin-top: 2%;
-}
+            #contact_me_div{
+                border: 1px solid black;
+                width: 90%;
+                height: 90%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
 
 #main_subcontent_02{
     border: 1px solid black;
