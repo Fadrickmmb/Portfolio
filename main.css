@@ -111,6 +111,13 @@
                 margin-top: 2%;
             }
 
+                        #contact_me_div input{
+                            display: flex;
+                            flex-direction: row;
+                            margin-left: 30%;
+                            
+                        }
+
 #main_subcontent_02{
     border: 1px solid black;
     width: 50%;
