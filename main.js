@@ -41,3 +41,12 @@ toggleContact.addEventListener("click", () => {
     hide(portDiv);
     show(contactDiv);
 });
+
+function changeLookGif(){
+    portDiv.style.backgroundImage = "url(/src/Logo.gif)";
+}
+
+function changePortColor(color){
+    portDiv.style.backgroundColor = color;
+    portDiv.style.backgroundImage = "";
+}
