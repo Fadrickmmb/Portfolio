@@ -12,6 +12,7 @@
 
 #main_sidebar{
     border: 1px solid black;
+    border-radius: 10%;
     width: 25%;
     height: 80%;
     margin-top: 5%;
@@ -78,6 +79,13 @@
                         margin-top: 10%;
                         margin-left: 6%;
                     }
+
+                            #look_portfolio:hover{
+                                background-color: rgb(166, 0, 255);
+                                background: url("/src/Logo.gif");
+                                background-size: 30%;
+                            }
+
 
                     #piggy_portfolio{
                         border: 1px solid black;
