@@ -26,7 +26,9 @@
                 margin-left: 25%;
                 margin-top: 5%;
                 height: 30%;
-                border-radius: 50%;    
+                border-radius: 50%;
+                background-image: url('/src/profile_pic.jpg');
+                background-size: 100%;
             }
 
             #main_sidebar_text{
@@ -69,6 +71,7 @@
                 height: 90%;
                 margin-left: 5%;
                 margin-top: 2%;
+                background-size: 10%;
             }
 
                     #look_portfolio{
@@ -78,16 +81,17 @@
                         display: inline-block;
                         margin-top: 10%;
                         margin-left: 6%;
+                        background-color: rgb(189, 134, 240);
                     }
 
-                            #look_portfolio:hover{
-                                background-color: rgb(166, 0, 255);
-                                background: url("/src/Logo.gif");
-                                background-size: 30%;
+                            .look_portfolio_name{
+                                margin-top: 50%;
+                                margin-left: 20%;
                             }
 
-                            .look_portfolio_name{
-                                margin-top: 60%;
+                            #look_portfolio_button{
+                                height: 13%;
+                                margin-left: 20%;
                             }
 
 
@@ -97,10 +101,17 @@
                         height: 50%;
                         display: inline-block;
                         margin-left: 6%;
+                        background-color: rgb(226, 43, 214);
                     }
 
                             .piggy_portfolio_name{
-                                margin-top: 60%;
+                                margin-top: 50%;
+                                margin-left: 20%;
+                            }
+
+                            #piggy_portfolio_button{
+                                height: 13%;
+                                margin-left: 24%;
                             }
 
                     #github_portfolio{
@@ -112,7 +123,12 @@
                     }
 
                             .github_portfolio_name{
-                                margin-top: 60%;
+                                margin-top: 50%;
+                                margin-left: 18%;
+                            }
+
+                            #github_portfolio_button{
+                                margin-left: 25%;
                             }
 
             #about_me_div{
