@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fadrick Barroso</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 
@@ -18,9 +19,11 @@
 
             </div>
             <div id="main_sidebar_text">
-               * Skill 1 <br>
-               * Skill 2 <br>
-               * Skill 3 <br>
+                <h2>Fadrick Barroso</h2>
+                <h3>Software Developer</h3>
+               * Studying Mobile App Programming<br>
+               * Strong Communication Skills <br>
+               * <br>
                * Skill 4 <br>
                * Skill 5 <br>
                * Skill 6 <br>
@@ -80,12 +83,35 @@
             </div>
 
             <div id="main_subcontent_02">
-
+                <div id="main_subcontent_02_quote"></div>
+                <div id="main_subcontent_02_author"></div>
             </div>
 
         </div>
     </div>
 
     <script src="main.js"></script>
+    <script>
+
+        function getRandomNumber(max) {
+            randomNumber = Math.floor(Math.random() * max);
+            console.log(randomNumber);
+          }
+
+          getRandomNumber(15);
+
+            $.getJSON("quotes.json", function(quotes) {
+                var quote1;
+                var author1;
+                quote1 = quotes[randomNumber.toString()]["quote"];
+                author1 = quotes[randomNumber.toString()]["from"];
+                $("#main_subcontent_02_quote").html(quote1);
+                $("#main_subcontent_02_author").html(author1);
+                console.log(quote1);
+              });
+
+
+    
+    </script>
 </body>
 </html>

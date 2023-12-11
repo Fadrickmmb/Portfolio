@@ -6,6 +6,7 @@ const homeDiv = document.getElementById("home_div");
 const portDiv = document.getElementById("portfolio_div");
 const aboutDiv = document.getElementById("about_me_div");
 const contactDiv = document.getElementById("contact_me_div");
+const quoteDiv = document.getElementById("main_subcontent_02");
 
 const hide = el => el.style.setProperty("display", "none");
 const show = el => el.style.setProperty("display", "block");
@@ -50,3 +51,5 @@ function changePortColor(color){
     portDiv.style.backgroundColor = color;
     portDiv.style.backgroundImage = "";
 }
+
+
