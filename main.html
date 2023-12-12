@@ -6,6 +6,15 @@
     <title>Fadrick Barroso</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("wlC3wzB-HWCmX4-Ia");
+        })();
+    </script>
+    <!--<script src="contactForm.js"></script>-->
 </head>
 <body>
 
@@ -26,10 +35,9 @@
                 <h3>Software Developer</h3>
                * Studying Mobile App Programming<br>
                * Strong Communication Skills <br>
-               * <br>
-               * Skill 4 <br>
-               * Skill 5 <br>
-               * Skill 6 <br>
+               * Teamwork<br>
+               * Problem Solving <br>
+               * Flexibility <br>
             </div>  
         </div>
 
@@ -48,7 +56,7 @@
                 
                <div id="home_div">
                 Welcome to my Portfolio. You can either choose to see more information about me clicking on the menu above <br>
-                Or click the button below to get.... Something 
+                Or click the button below to get.... Something
                </div>
 
                 <div id="portfolio_div">
@@ -77,10 +85,13 @@
                 </div>
 
                 <div id="contact_me_div">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="E-mail">
-                    <input type="text" placeholder="Message">
-                    <input type="submit" placeholder="Send Message">
+                    <form id="contact_form">
+                        <input type="text" placeholder="hidden" id="hiddenInput" required>
+                        <input type="text" placeholder="Name" id="nameInput" required>
+                        <input type="email" placeholder="E-mail" id="emailInput" required>
+                        <input type="text" placeholder="Message" id="messageInput" required>
+                        <input type="submit" placeholder="Send Message" id="formButton" onclick="sendMail()" required>
+                    </form>
                 </div>
 
             </div>
@@ -94,11 +105,12 @@
     </div>
 
     <script src="main.js"></script>
+
+    
     <script>
 
         function getRandomNumber(max) {
             randomNumber = Math.floor(Math.random() * max);
-            console.log(randomNumber);
           }
 
           getRandomNumber(17);
@@ -110,10 +122,9 @@
                 author1 = quotes[randomNumber.toString()]["from"];
                 $("#main_subcontent_02_quote").html(quote1);
                 $("#main_subcontent_02_author").html(author1);
-                console.log(quote1);
               });
 
-
+          
     
     </script>
 </body>
