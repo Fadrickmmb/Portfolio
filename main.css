@@ -40,6 +40,17 @@
                 margin-left: 10%    ;
             }
 
+            #main_sidebar_text h2{
+                margin-left: 20%;
+            }
+
+            #main_sidebar_text h3{
+                margin-left: 21%;
+                margin-top: -6%;
+            }
+
+            
+
 
              /* MAIN CONTENT */ 
 
@@ -140,6 +151,14 @@
                 margin-top: 2%;
             }
 
+                #about_me_text{
+                    border: 1px solid black;
+                    width: 90%;
+                    margin-left: 5%;
+                    margin-top: 5%;
+
+                }
+
             #contact_me_div{
                 border: 1px solid black;
                 width: 90%;
@@ -148,11 +167,32 @@
                 margin-top: 2%;
             }
 
-                        #contact_me_div input{
+
+                        #contact_form_h1{
+                            margin-left: 30%;
+                        }
+
+                        .input{
                             display: flex;
                             flex-direction: row;
                             margin-left: 30%;
+                            margin-top: 3%;
+                            width: 30%;
                         }
+
+                        #messageInput{
+                            height: 100px;
+                            box-sizing: border-box;
+                            resize: vertical;
+                        }
+
+                        #formButton{
+                            margin-left: 35%;
+                            margin-top: 3%;
+                            width: 20%;                            
+                        }
+
+                       
 
 #main_subcontent_02{
     border: 1px solid black;

@@ -31,11 +31,19 @@
             <div id="main_sidebar_text">
                 <h2>Fadrick Barroso</h2>
                 <h3>Software Developer</h3>
-               * Studying Mobile App Programming<br>
-               * Strong Communication Skills <br>
-               * Teamwork<br>
-               * Problem Solving <br>
-               * Flexibility <br>
+               <ul>
+                <li>Studying Mobile App Programming</li>
+                <li>Strong Communication Skills</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+                <li>Flexibility</li>
+                <li>Coffee</li>
+                <li>Creativity</li>
+               </ul>
+              
+               
+               
+               
             </div>  
         </div>
 
@@ -76,19 +84,26 @@
                 </div>
 
                 <div id="about_me_div">
-                    My name is Fadrick Barroso and i am a Software Developer, but I guess you already knew that.
+                    <div id="about_me_text">
+                    Hello! <br> 
+                    My name is Fadrick Barroso and I am a Software Developer, but I guess you already knew that.
                     What else can I tell you about me? Well, I'm very passionate about programming and I love doing it in my free time.
                     I actually graduated college with a bachelors in International Relations because I wanted to work with 
-                    international commerce, but after...
+                    international commerce, but after a while I started studying programming and I fell in love with it.
+                    Since then, I have been working on a few side projects while doing some freelance work for a company in Brazil. 
+
+                    </div>
                 </div>
 
                 <div id="contact_me_div">
+                    <h1 id="contact_form_h1">Send me a Message</h1>
+
                     <form id="contact_form">
-                        <input type="text" placeholder="hidden" id="hiddenInput" required>
-                        <input type="text" placeholder="Name" id="nameInput" required>
-                        <input type="email" placeholder="E-mail" id="emailInput" required>
-                        <input type="text" placeholder="Message" id="messageInput" required>
-                        <input type="submit" placeholder="Send Message" id="formButton" onclick="sendMail()" required>
+                        <input type="text" placeholder="hidden" class="input" id="hiddenInput" required>
+                        <input type="text" placeholder="Name" class="input" id="nameInput" required>
+                        <input type="email" placeholder="E-mail" class="input" id="emailInput" required>
+                        <input type="text" placeholder="Message" class="input" id="messageInput" required>
+                        <input type="submit" value="Send Message" id="formButton" onclick="sendMail()" required>
                     </form>
                 </div>
 
@@ -111,7 +126,7 @@
             randomNumber = Math.floor(Math.random() * max);
           }
 
-          getRandomNumber(17);
+          getRandomQuote(17);
 
             $.getJSON("quotes.json", function(quotes) {
                 var quote1;
