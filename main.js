@@ -46,8 +46,17 @@ toggleContact.addEventListener("click", () => {
     hide(hiddenInput);
 });
 
-function changeLookGif(){
-    portDiv.style.backgroundImage = "url(/src/Logo.gif)";
+function changeLookColor(){
+   //portDiv.style.backgroundImage = "url(/src/Logo.gif)";
+   portDiv.style.backgroundColor = "#E73C7E"
+}
+
+function changePiggyColor(){
+    portDiv.style.backgroundColor = "#FF80AF"
+}
+
+function changeGithubColor(){
+    portDiv.style.backgroundColor = '#333'
 }
 
 function changePortColor(color){
