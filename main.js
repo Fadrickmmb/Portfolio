@@ -15,7 +15,7 @@ const show = el => el.style.setProperty("display", "block");
 
 hide(aboutDiv);
 hide(portDiv);
-hide(contactDiv);
+hide(contactDiv);   
 
 toggleHome.addEventListener("click", () => {
     hide(portDiv);

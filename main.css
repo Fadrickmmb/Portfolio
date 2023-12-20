@@ -1,11 +1,10 @@
-            /* MAIN DIV */
+          
+           /* MAIN DIV */
 
 #main_mother_div{
-    border: 1px solid black;
     width: 99%;
     height: 700px;
     display: flex;
-
 }
 
              /* MAIN SIDEBAR */ 
@@ -49,6 +48,10 @@
                 margin-top: -6%;
             }
 
+            #main_sidebar_text li{
+                margin-top: 2%;
+            }
+
             
 
 
@@ -56,141 +59,166 @@
 
 #main_content{
     border: 1px solid black;
+    border-radius: 3em;
     width: 65%;
     height: 80%;
     margin-top: 5%;
     margin-left: 3%;    
 }
 
-            #main_subcontent_01{
-                border: 1px solid black;
-                width: 99%;
-                height: 75%;
-                margin-left: 0.5%;
+        #main_menu button{
+            margin-left: 15%;
+            margin-top: 0.5%;
+            border: none;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            background: none;
+            cursor: pointer;
+        }
+
+
+            #main_menu button:hover{
+                color: grey;
             }
 
-            #home_div{
-                border: 1px solid black;
-                width: 90%;
-                height: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-
-            #portfolio_div{
-                border: 1px solid black;
-                width: 90%;
-                height: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-                background-size: 10%;
-            }
-
-                    #look_portfolio{
-                        border: 1px solid black;
-                        width: 25%;
-                        height: 50%;
-                        display: inline-block;
-                        margin-top: 10%;
-                        margin-left: 6%;
-                        background-color: #E73C7E;
-                    }
-
-                            .look_portfolio_name{
-                                margin-top: 50%;
-                                margin-left: 20%;
-                            }
-
-                            #look_portfolio_button{
-                                height: 13%;
-                                margin-left: 20%;
-                            }
-
-
-                    #piggy_portfolio{
-                        border: 1px solid black;
-                        width: 25%;
-                        height: 50%;
-                        display: inline-block;
-                        margin-left: 6%;
-                        background-color: #FF80AF;
-                    }
-
-                            .piggy_portfolio_name{
-                                margin-top: 50%;
-                                margin-left: 20%;
-                            }
-
-                            #piggy_portfolio_button{
-                                height: 13%;
-                                margin-left: 24%;
-                            }
-
-                    #github_portfolio{
-                        border: 1px solid black;
-                        width: 25%;
-                        height: 50%;
-                        display: inline-block;
-                        margin-left: 6%;
-                    }
-
-                            .github_portfolio_name{
-                                margin-top: 50%;
-                                margin-left: 18%;
-                            }
-
-                            #github_portfolio_button{
-                                margin-left: 25%;
-                            }
-
-            #about_me_div{
-                border: 1px solid black;
-                width: 90%;
-                height: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-
-                #about_me_text{
-                    border: 1px solid black;
-                    width: 90%;
-                    margin-left: 5%;
-                    margin-top: 1%;
-
+                #main_subcontent_01{
+                        
+                    width: 99%;
+                    height: 75%;
+                    margin-left: 0.5%;
                 }
 
-            #contact_me_div{
-                border: 1px solid black;
-                width: 90%;
-                height: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
+                    #home_div{
+                        border: 1px solid black;
+                        border-radius: 3em;
+                        width: 90%;
+                        height: 90%;
+                        margin-left: 5%;
+                        margin-top: 2%;
+                    }
+
+                            #home_text{
+                                width: 90%;
+                                margin-left: 5%;
+                                margin-top: 1%;
+                            }
+
+                    #portfolio_div{
+                        border: 1px solid black;
+                        border-radius: 3em;
+                        width: 90%;
+                        height: 90%;
+                        margin-left: 5%;
+                        margin-top: 2%;
+                        background-size: 10%;
+                    }
+
+                            #look_portfolio{
+                                border: 1px solid black;
+                                width: 25%;
+                                height: 50%;
+                                display: inline-block;
+                                margin-top: 10%;
+                                margin-left: 6%;
+                                background-color: #E73C7E;
+                            }
+
+                                    .look_portfolio_name{
+                                        margin-top: 50%;
+                                        margin-left: 20%;
+                                    }
+
+                                    #look_portfolio_button{
+                                        height: 13%;
+                                        margin-left: 20%;
+                                    }
 
 
-                        #contact_form_h1{
-                            margin-left: 30%;
+                            #piggy_portfolio{
+                                border: 1px solid black;
+                                width: 25%;
+                                height: 50%;
+                                display: inline-block;
+                                margin-left: 6%;
+                                background-color: #FF80AF;
+                            }
+
+                                    .piggy_portfolio_name{
+                                        margin-top: 50%;
+                                        margin-left: 20%;
+                                    }
+
+                                    #piggy_portfolio_button{
+                                        height: 13%;
+                                        margin-left: 24%;
+                                    }
+
+                            #github_portfolio{
+                                border: 1px solid black;
+                                width: 25%;
+                                height: 50%;
+                                display: inline-block;
+                                margin-left: 6%;
+                                background-color: #333;
+                            }
+
+                                    .github_portfolio_name{
+                                        margin-top: 50%;
+                                        margin-left: 18%;
+                                    }
+
+                                    #github_portfolio_button{
+                                        margin-left: 25%;
+                                    }
+
+                    #about_me_div{
+                        border: 1px solid black;
+                        border-radius: 3em;
+                        width: 90%;
+                        height: 90%;
+                        margin-left: 5%;
+                        margin-top: 2%;
+                    }
+
+                        #about_me_text{
+                            width: 90%;
+                            margin-left: 5%;
+                            margin-top: 1%;
                         }
 
-                        .input{
-                            display: flex;
-                            flex-direction: row;
-                            margin-left: 30%;
-                            margin-top: 3%;
-                            width: 30%;
-                        }
+                    #contact_me_div{
+                        border: 1px solid black;
+                        border-radius: 3em;
+                        width: 90%;
+                        height: 90%;
+                        margin-left: 5%;
+                        margin-top: 2%;
+                    }
 
-                        #messageInput{
-                            height: 100px;
-                            box-sizing: border-box;
-                            resize: vertical;
-                        }
 
-                        #formButton{
-                            margin-left: 35%;
-                            margin-top: 3%;
-                            width: 20%;                            
-                        }
+                                #contact_form_h1{
+                                    margin-left: 30%;
+                                }
+
+                                .input{
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin-left: 30%;
+                                    margin-top: 3%;
+                                    width: 30%;
+                                }
+
+                                #messageInput{
+                                    height: 100px;
+                                    box-sizing: border-box;
+                                    resize: vertical;
+                                }
+
+                                #formButton{
+                                    margin-left: 35%;
+                                    margin-top: 3%;
+                                    width: 20%;                            
+                                }
 
                        
 
@@ -199,7 +227,6 @@
     width: 50%;
     height: 15%;
     margin-left: 25%;
-    margin-top: 3%;
 }
 
 #main_subcontent_02_quote{

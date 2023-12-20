@@ -39,6 +39,7 @@
                 <li>Flexibility</li>
                 <li>Coffee</li>
                 <li>Creativity</li>
+                <li></li>
                </ul>
               
                
@@ -61,14 +62,16 @@
             <div id="main_subcontent_01">
                 
                <div id="home_div">
-                Welcome to my Portfolio! 
-                <br>
-                <br>
-                Please, use the buttons above to navigate through the website. <br><br>
-                On the bottom of the page you will see what people say about me... or you might get a Dad Joke.
-                <br><br>
-                If you liked my work, feel free to send me a message! I will answer it in less than 24 hours.   
+                <div id="home_text">
+                    Welcome to my Portfolio! 
+                    <br>
+                    <br>
+                    Please, use the buttons above to navigate through the website. <br><br>
+                    On the bottom of the page you will see what people say about me... or you might get a Dad Joke.
+                    <br><br>
+                    If you liked my work, feel free to send me a message! I will answer it in less than 24 hours.   
                </div>
+                </div>
 
                 <div id="portfolio_div">
                     <div id="look_portfolio" onmouseover="changeLookColor()" onmouseout="changePortColor('white')">
@@ -106,10 +109,6 @@
                     Thank you for visiting my website and for getting to know me a little better. I hope you enjoy my work and I'll
                     be looking forward for a message from you. <br><br>
 
-                    TL;DR <br>
-                
-                     
-
                     </div>
                 </div>
 
@@ -140,20 +139,26 @@
     
     <script>
 
-        function getRandomQuote(max) {
-            randomNumber = Math.floor(Math.random() * max);
-          }
 
-          getRandomQuote(17);
+    
+            function getRandomQuote(max) {
+                randomNumber = Math.floor(Math.random() * max);
+              }
+    
+              getRandomQuote(17);
+    
+                $.getJSON("quotes.json", function(quotes) {
+                    var quote1;
+                    var author1;
+                    quote1 = quotes[randomNumber.toString()]["quote"];
+                    author1 = quotes[randomNumber.toString()]["from"];
+                    $("#main_subcontent_02_quote").html(quote1);
+                    $("#main_subcontent_02_author").html(author1);
+                  });
+        
 
-            $.getJSON("quotes.json", function(quotes) {
-                var quote1;
-                var author1;
-                quote1 = quotes[randomNumber.toString()]["quote"];
-                author1 = quotes[randomNumber.toString()]["from"];
-                $("#main_subcontent_02_quote").html(quote1);
-                $("#main_subcontent_02_author").html(author1);
-              });
+    
+        
 
           
     
